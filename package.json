@@ -38,7 +38,6 @@
     "uuid": "^9.0.1",
     "web-vitals": "^2.1.4"
   },
-
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -46,6 +45,9 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
+    "rules": {
+      "no-unused-vars": "warn"
+    },
     "extends": [
       "react-app",
       "react-app/jest"
