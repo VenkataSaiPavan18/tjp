@@ -1,0 +1,77 @@
+.carousel {
+    position: relative;
+  }
+  
+  .slides {
+    display: flex;
+  }
+  
+  .slide {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .content h2 {
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .slide-titles {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .title.active .circle {
+    background: orange;
+  }
+  
+  .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid orange;
+    margin-bottom: 5px;
+  }
+  
+  .title span {
+    font-size: 0.8rem;
+    color: black;
+  }
+  
