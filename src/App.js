@@ -11,7 +11,7 @@ import BlogsPage from "./pages/blogs/BlogsPage.jsx";
 import WhyPorridgePage from "./pages/why-millet-porridges/WhyPorridgePage.jsx";
 import SuperFoodsMilletPage from "./pages/super-foods/SuperFoodsMilletPage.jsx";
 import PosterModal from './EventPoster/PosterModal.js';
-
+// import axios from "axios";
 // import HomePage from "./pages/home/HomePage";
 import AboutPage from "./pages/about/AboutPage.jsx";
 import WhySoupsPage from "./pages/why-soups/WhySoupsPage.jsx";
