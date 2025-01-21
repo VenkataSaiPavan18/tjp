@@ -46,14 +46,14 @@
   },
   "eslintConfig": {
     "rules": {
-    "no-unused-vars": "off",
-    "no-console": "off",
-    "react/prop-types": "off",
-    "react/jsx-props-no-spreading": "off",
-    "react/jsx-no-target-blank": "off",
-    "no-debugger": "off",
-    "no-restricted-syntax": "off"
-  },
+      "no-unused-vars": "off",
+      "no-console": "off",
+      "react/prop-types": "off",
+      "react/jsx-props-no-spreading": "off",
+      "react/jsx-no-target-blank": "off",
+      "no-debugger": "off",
+      "no-restricted-syntax": "off"
+    },
     "extends": [
       "react-app",
       "react-app/jest"
